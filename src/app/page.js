@@ -1,5 +1,5 @@
 "use client"
-import Book from '@/Components/Book'
+import Book from '@/components/Book'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import Portfolio from '@/components/Portfolio'
