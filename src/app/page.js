@@ -1,9 +1,9 @@
 "use client"
-import Book from '@/components/Book'
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import Portfolio from '@/components/Portfolio'
-import Timeline from '@/components/Timeline'
+import Book from '@/Components/Book'
+import Footer from '@/Components/Footer'
+import Navbar from '@/Components/Navbar'
+import Portfolio from '@/Components/Portfolio'
+import Timeline from '@/Components/Timeline'
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 
