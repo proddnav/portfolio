@@ -24,6 +24,14 @@ const projects=[
     image:'/portfolio/news.png',
     link:'https://docs.google.com/document/d/1sHZBGvnREWklPmULaXqKTLdE1O1f6TSJBcQK-g8FhNg/edit?usp=sharing',
     category:"newsletter",
+  },
+{
+    Id:4,
+    title:"Marco Polo Feature Recommendation",
+    detail:"Marco Polo",
+    image:'/portfolio/marcopolo.png',
+    link:'https://www.figma.com/proto/2vIewVBSNBfpqUwrK68bh9/Marco_Polo_Wireframes?page-id=0%3A1&type=design&node-id=1-2&viewport=228%2C343%2C0.25&t=Kr0MCFA5XKhHOAsU-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
+    category:"wireframe",
   }
 ]
  
