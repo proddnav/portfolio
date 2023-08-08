@@ -14,7 +14,7 @@ const Timeline = () => {
         </h1>
 
         <p class="mt-4 text-center text-slate-100">
-        A journey of how I have evolved to who I am today.
+        Highlights of my career.
         </p>
 </div>
 
@@ -30,7 +30,7 @@ const Timeline = () => {
       <div className="order-1 md:w-5/12">
       <div class=" px-1 pb-2 text-left md:absolute right-time">
         <span class="block text-xl font-bold text-slate-200" tabindex="0" role="link">2014-2019</span>
-        <span class="text-sm text-slate-300">Learnt, unlearnt and transformed</span>
+        <span class="text-sm text-slate-300">Unlearnt, learnt and transformed</span>
     </div>
       <div className="w-full px-3 overflow-hidden rounded-lg shadow-lg bg-gray-800">
       <div className="py-5 px-2 text-left">

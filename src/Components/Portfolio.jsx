@@ -4,15 +4,15 @@ const projects=[
   {
     id:1,
     title:"Monetization Features on Paytm Insider",
-    detail:"we Identify and generate new sources of revenue leveraging the existing platform offerings Increase the month-on-month growth (user & revenue) ",
+    detail:" Identified new revenue opportunities by leveraging the current platform offerings. Additionally suggested high impact low effort features to achieve the desired business objective. ",
     image:'/portfolio/paytm.png',
     link:'https://docs.google.com/presentation/d/1TYYj6od34r6kfHFRDP9_vwkFu10oJKpiT6vGhCMGAJA/edit?usp=sharing',
     category:"product",
   },
   {
     id:2,
-    title:"Figma app design",
-    detail:"Sit laboris tempor enim dolore dolore magna non.",
+    title:"App Design for Masala Tech",
+    detail:"Created a log-in page and a portfolio of brands page",
     image:'/portfolio/figma.png',
     link:'https://www.figma.com/proto/3MPWABksAJKpeDOS7NWU3i/Masala-Tech-Log-in?page-id=25%3A140&type=design&node-id=25-141&viewport=218%2C218%2C0.71&t=TFxErgqNFV6bg388-1&scaling=scale-down&starting-point-node-id=25%3A141&mode=design',
     category:"wireframe",
@@ -20,18 +20,26 @@ const projects=[
   {
     id:3,
     title:"Accelerate Your PM Journey ! Must-See PM Resources Inside",
-    detail:"As we continue our journey towards excellence, I am thrilled to share a curated list of invaluable resources that will propel your path to success as a Product Manager",
+    detail:"A weekly newsletter covering important updates, resources necessary for aspiring product managers and product enthusiasts",
     image:'/portfolio/news.png',
     link:'https://docs.google.com/document/d/1sHZBGvnREWklPmULaXqKTLdE1O1f6TSJBcQK-g8FhNg/edit?usp=sharing',
     category:"newsletter",
   },
 {
     Id:4,
-    title:"Marco Polo Feature Recommendation",
-    detail:"Marco Polo",
+    title:"Marco Polo Feature Introduction",
+    detail:"Keeping the business outcome in mind added new features to the existing home-page to drive user acquisition and engagement",
     image:'/portfolio/marcopolo.png',
-    link:'https://www.figma.com/proto/2vIewVBSNBfpqUwrK68bh9/Marco_Polo_Wireframes?page-id=0%3A1&type=design&node-id=1-2&viewport=228%2C343%2C0.25&t=Kr0MCFA5XKhHOAsU-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
+    link:'https://www.figma.com/proto/ZUindRY2SNCt4tUObIwyXE/Marco_Polo_Find_A_Counsellor?page-id=0%3A1&type=design&node-id=4-75&viewport=268%2C352%2C0.58&t=9BnS1wStWIz6z0dK-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design',
     category:"wireframe",
+  },
+{
+    id: 5,
+    title: "Marco Polo",
+    detail: "Strategically enhanced Marco Polo's platform, integrating mental health features to boost user acquisition and engagement.",
+    image: '/portfolio/marcopolocopy.png',
+    link: 'https://docs.google.com/presentation/d/1_CPAXu2TO81Og2YWCQ1oYk_b1zjq6W3TJ6j9DNOgE8M/edit?usp=sharing',
+    category: "product",
   }
 ]
  

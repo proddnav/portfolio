@@ -35,7 +35,7 @@ const Home = () => {
 
 <Typewriter
 options={{
-  strings: [' Entrepreneur','Product Designer','Growth Marketer'],
+  strings: ['Ex-Lawyer', ' Entrepreneur','Aspiring Product Manager'],
   autoStart: true,
   loop: true,
 }}
@@ -90,8 +90,8 @@ options={{
     </div>
   </div>
 </section>
-<Timeline/>
 <Book/>
+<Timeline/>
     <Footer/>
     </>
   )
