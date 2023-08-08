@@ -38,7 +38,7 @@ const Timeline = () => {
     </div>
   <img className="object-cover w-full h-62" src="/timeline/uni.jpeg" alt="avatar" />
   <div className="py-5 text-left">
-    <span className="text-sm text-gray-200">Jindal Global university</span>
+    <span className="text-sm text-gray-200">Jindal Global University</span>
   </div>
 </div>
 
