@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <section className="bg-cover">
+      <section id='connect' className="bg-cover">
         <div className="flex flex-col bg-[#252A2F]">
           <div className="container flex flex-col flex-1 px-6 py-10 mx-auto">
             <div className="text-center">
