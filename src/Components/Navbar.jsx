@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
+import Modal from 'react-modal';
 
 const Navbar = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const toggleModal = () => {
+    setModalIsOpen(!modalIsOpen);
+  };
+
   return (
     <header className="text-white bg-[#141414] body-font">
       <div className="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
@@ -15,14 +22,24 @@ const Navbar = () => {
           <a className="mr-5 hover:text-gray-900">Connect</a>
         </nav>
         <div className='flex gap-5'>
-          <button className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume</button>
+          <button onClick={toggleModal} className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume</button>
           <a href="https://calendly.com/pranav-7ge/30min" target="_blank" rel="noopener noreferrer">
             <button className="inline-flex items-center bg-blue-700 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Book a Call</button>
           </a>
         </div>
       </div>
+
+      <Modal isOpen={modalIsOpen} onRequestClose={toggleModal}>
+        {/* Your form will go here */}
+        <form>
+          {/* Sample form fields */}
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <button type="submit">Submit</button>
+        </form>
+      </Modal>
     </header>
   )
 }
 
-export default Navbar
+export default Navbar;

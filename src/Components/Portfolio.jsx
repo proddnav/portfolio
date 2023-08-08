@@ -30,8 +30,16 @@ const projects=[
     title:"Marco Polo Feature Introduction",
     detail:"Keeping the business outcome in mind added new features to the existing home-page to drive user acquisition and engagement",
     image:'/portfolio/marcopolo.png',
-    link:'https://www.figma.com/proto/2vIewVBSNBfpqUwrK68bh9/Marco_Polo_Wireframes?page-id=0%3A1&type=design&node-id=1-2&viewport=228%2C343%2C0.25&t=Kr0MCFA5XKhHOAsU-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
+    link:'https://www.figma.com/proto/ZUindRY2SNCt4tUObIwyXE/Marco_Polo_Find_A_Counsellor?page-id=0%3A1&type=design&node-id=4-75&viewport=268%2C352%2C0.58&t=9BnS1wStWIz6z0dK-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design',
     category:"wireframe",
+  },
+{
+    id: 5,
+    title: "Marco Polo",
+    detail: "Strategically enhanced Marco Polo's platform, integrating mental health features to boost user acquisition and engagement.",
+    image: '/portfolio/marcopolocopy.png',
+    link: 'https://docs.google.com/presentation/d/1_CPAXu2TO81Og2YWCQ1oYk_b1zjq6W3TJ6j9DNOgE8M/edit?usp=sharing',
+    category: "product",
   }
 ]
  
