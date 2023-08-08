@@ -4,7 +4,7 @@ const Book = () => {
   return (
     <section className="bg-[#141414]">
   <div className="container px-6 py-10 mx-auto">
-    <h1 className="text-3xl font-semibold text-center capitalize lg:text-5xl text-white">Books
+    <h1 className="text-3xl font-semibold text-center capitalize lg:text-5xl text-white">Books That Lit My Path
     </h1>
     {/* <p className="mt-4 text-center text-gray-500 dark:text-gray-300">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
