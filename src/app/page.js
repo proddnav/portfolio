@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-   <section className="bg-[#141414]">
+   <section id="about" className="bg-[#141414]">
   <div className="container py-16 mx-auto">
     <div className="items-center lg:flex">
       <div className="w-full lg:w-3/5">
@@ -54,7 +54,7 @@ options={{
 </section>
 
 <Portfolio/>
-<section className="bg-[#141414]">
+<section id="skills" className="bg-[#141414]">
   <div className="container px-6 py-16 mx-auto text-center">
     <div className="max-w-xl mx-auto">
       <h1 className="text-3xl font-semibold text-white lg:text-5xl">Tech Skills</h1>

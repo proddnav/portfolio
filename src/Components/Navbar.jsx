@@ -15,11 +15,11 @@ const Navbar = () => {
           Pranav Chandra
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900">About me</a>
-          <a className="mr-5 hover:text-gray-900">Portfolio</a>
-          <a className="mr-5 hover:text-gray-900">Skills</a>
-          <a className="mr-5 hover:text-gray-900">Milestone</a>
-          <a className="mr-5 hover:text-gray-900">Connect</a>
+        <a href='/#about' className="mr-5 hover:text-gray-300 hover:scale-110">About me</a>
+      <a href='/#portfolio' className="mr-5 hover:text-gray-300 hover:scale-110">Portfolio</a>
+      <a href='/#skills' className="mr-5 hover:text-gray-300 hover:scale-110">Skils</a>
+      <a href='/#milestone' className="mr-5 hover:text-gray-300 hover:scale-110">Milestone</a>
+      <a href='/#connect' className="mr-5 hover:text-gray-300 hover:scale-110">Connect</a>
         </nav>
         <div className='flex gap-5'>
           <button onClick={toggleModal} className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume</button>

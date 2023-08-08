@@ -5,7 +5,7 @@ const Timeline = () => {
   return (
     <>
 {/* component */}
-<section className="bg-[#141414]">
+<section id='milestone' className="bg-[#141414]">
 
 <div className="md:container mx-auto w-full h-full">
 <div className='py-10'>
