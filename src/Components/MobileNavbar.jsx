@@ -62,6 +62,9 @@ const MobileNavbar = () => {
         <Link href='/#connect' className="mr-5 hover:text-gray-300 hover:scale-110 text-center">Connect</Link>
 
         </li>
+        <li>
+        <Link href='/booknotes' className="mr-5 hover:text-gray-300 hover:scale-110">Book Notes</Link>
+        </li>
       </ul>
       <div className='flex gap-5'>
     <button onClick={toggleDrawer} className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume
