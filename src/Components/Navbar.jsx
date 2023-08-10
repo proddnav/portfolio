@@ -13,6 +13,7 @@ const Navbar = () => {
       <Link href='/#skills' className="mr-5 hover:text-gray-300 hover:scale-110">Skils</Link>
       <Link href='/#milestone' className="mr-5 hover:text-gray-300 hover:scale-110">Milestone</Link>
       <Link href='/#connect' className="mr-5 hover:text-gray-300 hover:scale-110">Connect</Link>
+      <Link href='/booknotes' className="mr-5 hover:text-gray-300 hover:scale-110">Book Notes</Link>
     </nav>
     <div className='flex gap-5'>
     <button className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume
