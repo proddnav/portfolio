@@ -7,13 +7,13 @@ const BookNotes = () => {
         <h1 className="text-5xl font-extrabold text-center mb-10">Book Notes</h1>
         <div className="text-gray-600 dark:text-gray-400">
           {/* You can add your book reviews or any other content here */}
-          <p className="mb-4">Here you'll find my thoughts and notes on the books I've read. Feel free to explore and share your thoughts with me!</p>
+          <p className="mb-4">Here you&apos;ll find my thoughts and notes on the books I&apos;ve read. Feel free to explore and share your thoughts with me!</p>
 
           {/* Example of a book review */}
           <div className="mb-8">
             <h2 className="text-3xl font-semibold">Title of the Book</h2>
             <p className="mt-2">Author: John Doe</p>
-            <p className="mt-2">My thoughts and notes about this book...</p>
+            <p className="mt-2">My thoughts and notes about this book&apos;</p>
           </div>
 
           {/* You can add more book reviews or other content here */}
