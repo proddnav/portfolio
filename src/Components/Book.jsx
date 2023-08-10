@@ -11,27 +11,27 @@ const Book = () => {
     </p> */}
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
       <div>
-        <img className="object-contain w-full rounded-lg" src="/books/1.jpg" alt />
+        <img className="object-contain w-full rounded-lg" src="/books/1.jpg" alt="imges" />
         
       </div>
       <div>
-        <img className="object-contain w-full rounded-lg" src="/books/2.jpg" alt />
+        <img className="object-contain w-full rounded-lg" src="/books/2.jpg" alt="imges1" />
         
       </div>
       <div>
-        <img className="object-contain w-full rounded-lg" src="/books/3.jpg" alt />
+        <img className="object-contain w-full rounded-lg" src="/books/3.jpg" alt="imges2" />
         
       </div>
       <div>
-        <img className="object-contain w-full rounded-lg" src="/books/4.jpg" alt />
+        <img className="object-contain w-full rounded-lg" src="/books/4.jpg" alt="imges3" />
         
       </div>
       <div>
-        <img className="object-contain w-full rounded-lg" src="/books/5.jpg" alt />
+        <img className="object-contain w-full rounded-lg" src="/books/5.jpg" alt="imges4" />
         
       </div>
       <div>
-        <img className="object-contain w-full rounded-lg" src="/books/6.jpg" alt />
+        <img className="object-contain w-full rounded-lg" src="/books/6.jpg" alt="imges5" />
         
       </div>
     </div>
