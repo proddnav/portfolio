@@ -30,7 +30,7 @@ const Timeline = () => {
       <div className="order-1 md:w-5/12">
       <div class=" px-1 pb-2 text-left md:absolute right-time">
         <span class="block text-xl font-bold text-slate-200" tabindex="0" role="link">2014-2019</span>
-        <span class="text-sm text-slate-300">Unlearnt, learnt and transformed</span>
+        <span class="text-sm text-slate-300">Unlearnt, learnt and transformed.</span>
     </div>
       <div className="w-full px-3 overflow-hidden rounded-lg shadow-lg bg-gray-800">
       <div className="py-5 px-2 text-left">
@@ -38,7 +38,7 @@ const Timeline = () => {
     </div>
   <img className="object-cover w-full h-62" src="/timeline/uni.jpeg" alt="avatar" />
   <div className="py-5 text-left">
-    <span className="text-sm text-gray-200">Jindal Global University</span>
+    <span className="text-sm text-gray-200">Jindal Global University (India's No.1 ranked law school QS Rankings)</span>
   </div>
 </div>
 
@@ -52,7 +52,7 @@ const Timeline = () => {
       <div className="order-1 md:w-5/12">
       <div class=" px-1 pb-2 text-left md:absolute left-time">
         <span class="block text-xl font-bold text-slate-200" tabindex="0" role="link">2019-2021</span>
-        <span class="text-sm text-slate-300">Navigating disputes, championing growth</span>
+        <span class="text-sm text-slate-300">Navigating disputes, championing growth.  </span>
     </div>
       <div className="w-full px-3 overflow-hidden rounded-lg shadow-lg bg-gray-800">
       <div className="py-5 px-2 text-left">

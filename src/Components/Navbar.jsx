@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import emailjs from 'emailjs-com';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -35,6 +36,7 @@ const Navbar = () => {
           <a href='/#skills' className="mr-5 hover:text-gray-300 hover:scale-110">Skills</a>
           <a href='/#milestone' className="mr-5 hover:text-gray-300 hover:scale-110">Milestone</a>
           <a href='/#connect' className="mr-5 hover:text-gray-300 hover:scale-110">Connect</a>
+          <Link href='/booknotes' className="mr-5 hover:text-gray-300 hover:scale-110">Book Notes</Link> {/* New Button */}
         </nav>
         <div className='flex gap-5'>
           <button onClick={toggleModal} className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume</button>
