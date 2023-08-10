@@ -12,10 +12,10 @@ const MobileNavbar = () => {
         setIsOpen((prevState) => !prevState)
     }
   return (
-    <header>
+    <header className='md:hidden block'>
     <div className="flex items-center justify-between px-4 py-3 sticky top-0 z-40 bg-[#101010]">
       <div className="flex items-center justify-between w-full max-w-7xl mx-auto px-4">
-        <Link href="/" className="text-white font-bold text-xl w-26">
+        <Link href="#" className="text-white font-bold text-xl w-26">
         <h2>Pranav Chandra</h2>
         </Link>
         <div className="block lg:hidden text-[white]">
