@@ -1,3 +1,4 @@
+"use client"
 import React, { useState,useEffect } from 'react'
 
 const projects=[
@@ -37,7 +38,7 @@ const projects=[
     id: 5,
     title: "Marco Polo",
     detail: "Strategically enhanced Marco Polo's platform, integrating mental health features to boost user acquisition and engagement.",
-    image: '/portfolio/marcopolocopy.png',
+    image: '/portfolio/marcopolo.png',
     link: 'https://docs.google.com/presentation/d/1_CPAXu2TO81Og2YWCQ1oYk_b1zjq6W3TJ6j9DNOgE8M/edit?usp=sharing',
     category: "product",
   }

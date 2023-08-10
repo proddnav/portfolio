@@ -1,22 +1,27 @@
 "use client"
 import Book from '@/Components/Book'
 import Footer from '@/Components/Footer'
+import MobileNavbar from '@/Components/MobileNavbar'
 import Navbar from '@/Components/Navbar'
 import Portfolio from '@/Components/Portfolio'
 import Timeline from '@/Components/Timeline'
 import React from 'react'
 import Typewriter from 'typewriter-effect'
+import { useMediaQuery } from 'usehooks-ts'
 
 const Home = () => {
+  const isMobile = useMediaQuery('(max-width:1024px)')
   return (
     <>
+    {/* {isMobile ?(<MobileNavbar/>):(<Navbar/>)} */}
+    <MobileNavbar/>
     <Navbar/>
-   <section id="about" className="bg-[#141414]">
+   <section id='about' className="bg-[#141414]">
   <div className="container py-16 mx-auto">
     <div className="items-center lg:flex">
       <div className="w-full lg:w-3/5">
         <div className="">
-        <p className="mt-3 text-gray-200 font-extrabold text-2xl">Hello</p>
+        <p className="mt-3 text-gray-200 font-extrabold text-2xl ">Hello</p>
 
         {/* <h1 className="text-3xl font-semibold text-white lg:text-8xl">HELLO</h1> */}
         <div>
@@ -35,14 +40,14 @@ const Home = () => {
 
 <Typewriter
 options={{
-  strings: ['Ex-Lawyer', ' Entrepreneur','Aspiring Product Manager'],
+  strings: [' Entrepreneur','Product Designer','Growth Marketer'],
   autoStart: true,
   loop: true,
 }}
 />
 </div>
 
-          <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship. MBA candidate at Masters&apos; Union with proven success in scaling an F&B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
+          <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship. MBA candidate at Master&apos;s Union with proven success in scaling an F&B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
           
         </div>
       </div>
@@ -54,7 +59,7 @@ options={{
 </section>
 
 <Portfolio/>
-<section id="skills" className="bg-[#141414]">
+<section id='skills' className="bg-[#141414]">
   <div className="container px-6 py-16 mx-auto text-center">
     <div className="max-w-xl mx-auto">
       <h1 className="text-3xl font-semibold text-white lg:text-5xl">Tech Skills</h1>
@@ -90,8 +95,8 @@ options={{
     </div>
   </div>
 </section>
-<Book/>
 <Timeline/>
+<Book/>
     <Footer/>
     </>
   )
