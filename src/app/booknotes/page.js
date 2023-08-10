@@ -7,7 +7,9 @@ const BookNotes = () => {
         <h1 className="text-5xl font-extrabold text-center mb-10">Book Notes</h1>
         <div className="text-gray-600 dark:text-gray-400">
           {/* You can add your book reviews or any other content here */}
-          <p className="mb-4">Here youll find my thoughts and notes on the books Ive read. Feel free to explore and share your thoughts with me!</p>
+          <p className="mb-4">
+            {" Here youll find my thoughts and notes on the books Ive read. Feel free to explore and share your thoughts with me! "}
+            </p>
 
           {/* Example of a book review */}
           <div className="mb-8">
