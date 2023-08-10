@@ -38,7 +38,7 @@ const Timeline = () => {
     </div>
   <img className="object-cover w-full h-62" src="/timeline/uni.jpeg" alt="avatar" />
   <div className="py-5 text-left">
-    <span className="text-sm text-gray-200">Jindal Global University (India's No.1 ranked law school QS Rankings)</span>
+    <span className="text-sm text-gray-200">Jindal Global University India&apos;s No.1 ranked law school QS Rankings</span>
   </div>
 </div>
 
