@@ -4,8 +4,7 @@ const Navbar = () => {
   return (
    <header className="text-white bg-[#141414] body-font hidden md:block">
   <div className="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
-    <Link href="/" className="flex title-font font-bold items-center text-white text-xl mr-2 mb-4 md:mb-0">
-      
+    <Link href="/" className="flex title-font font-bold items-center text-white text-xl mr-2 mb-4 md:mb-0"> 
       Pranav Chandra
     </Link>
     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center">
