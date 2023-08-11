@@ -114,7 +114,6 @@ options={{
   </div>
 </section>
 <Book/>
-<Certifications/>
 <Timeline/>
     <Footer/>
     </>
