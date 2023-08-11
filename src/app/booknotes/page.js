@@ -34,7 +34,7 @@ const BookNotes = () => {
                   />
                   <div className="ml-4">
                     <h3 className="text-xl font-semibold">Title of Book {book}</h3>
-                    <p className="text-sm text-gray-400">Some description about Book {book}...</p>
+                    <p className="text-sm text-gray-400">Really good book</p>
                   </div>
                 </div>
               ))}
