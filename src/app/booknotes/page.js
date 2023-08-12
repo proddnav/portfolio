@@ -14,7 +14,7 @@ const BookNotes = () => {
                   <h1 className="text-5xl font-extrabold text-white mb-3">Book Summaries</h1>
                   <div className="header-intro-text">
                     <p className="mb-4">
-                      I enjoy reading self-help & business books. Here&apos;s some of the notes I&apos;ve taken on the best books I&apos;ve read.
+                      I enjoy reading and get through more books than I can count. Here's some of the notes I've taken on the best books I've read.
                     </p>
                   </div>
                 </div>
@@ -34,21 +34,30 @@ const BookNotes = () => {
                   />
                   <div className="ml-4">
                     <h3 className="text-xl font-semibold">Title of Book {book}</h3>
-                    <p className="text-sm text-gray-400">Really good book</p>
+                    <p className="text-sm text-gray-400">Some description about Book {book}...</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Right Section */}
+            <div className="flex flex-col gap-4">
+              {['4', '5', '6'].map((book) => (
+                <div key={book} className="flex items-center">
+                  <img
+                    style={{ width: '150px', height: '278px' }}
+                    src={`/books/${book}.jpg`}
+                    alt={`Book ${book}`}
+                    className="object-contain"
+                  />
+                  <div className="ml-4">
+                    <h3 className="text-xl font-semibold">Title of Book {book}</h3>
+                    <p className="text-sm text-gray-400">Some description about Book {book}...</p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-
-          {/* Example of a book review */}
-          <div className="mb-8">
-            <h2 className="text-3xl font-semibold">Title of the Book</h2>
-            <p className="mt-2">Author John Doe</p>
-            <p className="mt-2">My thoughts and notes about this book</p>
-          </div>
-
-          {/* You can add more book reviews or other content here */}
         </div>
       </div>
     </section>
