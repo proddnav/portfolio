@@ -14,7 +14,7 @@ const BookNotes = () => {
                   <h1 className="text-5xl font-extrabold text-white mb-3">Book Summaries</h1>
                   <div className="header-intro-text">
                     <p className="mb-4">
-                      I enjoy reading and get through more books than I can count. Here's some of the notes I've taken on the best books I've read.
+                      I enjoy reading and get through more books than I can count. Here&apos;s some of the notes I&apos;ve taken on the best books I&apos;ve read.
                     </p>
                   </div>
                 </div>
