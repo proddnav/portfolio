@@ -34,7 +34,7 @@ const Home = () => {
                   }}
                 />
               </div>
-              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship. MBA candidate at Master's Union with proven success in scaling an F&amp;B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
+              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400"> Passionate product enthusiast with a diverse background in law and entrepreneurship. MBA candidate at Master&apos;s Union with proven success in scaling an F&amp;B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals.</p>
             </div>
             <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-2/5">
               <img className="w-full h-full lg:max-w-lg shadow-2xl shadow-[#4b39ef] rounded-full" src="/hero.png" alt="hero.png" />
