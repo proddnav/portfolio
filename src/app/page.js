@@ -13,7 +13,6 @@ const Home = () => {
   const isMobile = useMediaQuery('(max-width:1024px)');
   return (
     <>
-      {/* {isMobile ?(<MobileNavbar/>):(<Navbar/>)} */}
       <MobileNavbar />
       <Navbar />
       <section id='about' className="bg-[#141414]">
@@ -34,10 +33,10 @@ const Home = () => {
                   }}
                 />
               </div>
-              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship. MBA candidate at Master's Union with proven success in scaling an F&amp;B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
+              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship. MBA candidate at Master&apos;s Union with proven success in scaling an F&amp;B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
             </div>
             <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-2/5">
-              <img className="w-full h-full lg:max-w-lg shadow-2xl shadow-[#4b39ef] rounded-full" src="/hero.png" alt="hero.png" />
+              <img className="w-full h-full lg:max-w-lg shadow-2xl shadow-[#4b39ef] rounded-full" src="/hero.png" alt="Hero" />
             </div>
           </div>
         </div>
@@ -53,9 +52,9 @@ const Home = () => {
           </div>
           <div className="max-w-screen-xl mx-auto mt-20 ">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-7">
-              {['1', '2', '3', '4', '5', '6', '7'].map((icon) => (
-                <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                  <img src={`/icons/${icon}.png`} className='aspect-[1/1] w-24' style={{ filter: 'brightness(200%) contrast(1000%) invert(100%)' }} />
+              {['1', '2', '3', '4', '5', '6', '7'].map((icon, index) => (
+                <div key={index} className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+                  <img src={`/icons/${icon}.png`} alt={`Icon ${icon}`} className='aspect-[1/1] w-24' style={{ filter: 'brightness(200%) contrast(1000%) invert(100%)' }} />
                 </div>
               ))}
             </div>
