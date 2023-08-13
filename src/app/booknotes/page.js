@@ -8,26 +8,27 @@ const BookNotes = () => {
     {
       title: 'Deep Work – Summary With Notes and Highlights',
       description: 'A systematic approach to unlocking your intellectual potential – and achieving profound satisfaction in your professional life. Including key insights, practical strategies, and a comprehensive summary of the book.',
+      link: 'https://medium.com/@prodduturipranav/deep-work-a-comprehensive-summary-with-notes-and-highlights-9405b24179f3',
     },
     {
-      title: 'Lorem Ipsum – Dolor Sit Amet',
-      description: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+      title: 'Mindset - Summary With Notes and Highlights',
+      description: 'An insightful exploration of the power of perspective in shaping success and fulfillment. Including essential concepts, transformative approaches, and a shift of mindset from fixed mindset to growth mindset',
     },
     {
-      title: 'Curabitur Vitae – Nunc Et Magna',
-      description: 'Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.',
+      title: 'Why Has Nobody Told Me This Before?',
+      description: 'A vital guide to mental well-being. Whether you\'re seeking to manage anxiety, cope with depression, build self-confidence, or find motivation, this book provides practical solutions in anecdotal stories. Including key strategies, actionable insights, and a comprehensive summary that addresses everyday mental health challenges.',
     },
     {
-      title: 'Praesent Commodo – Cursus Magna',
-      description: 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.',
+      title: 'The Millionaire Fastlane',
+      description: 'A groundbreaking guide to wealth creation and financial independence that challenges conventional financial wisdom. It is thought provoking in the way it shifts the path to financial freedom, this book offers a roadmap to a richer life by breaking free from the slow lane to fast lane of wealth creation.',
     },
     {
-      title: 'Nullam Quis – Risus Eget',
-      description: 'Urnas ac leo integer malesuada nunc vel risus. Commodo viverra maecenas accumsan lacus vel facilisis volutpat.',
+      title: 'The Lean Startup',
+      description: 'A remarkable, revolutionary approach to entrepreneurship and innovation, The book introduces a new systematic, scientific method for creating and managing successful startups. Including essential concepts, practical methodologies, this book offers a roadmap to sustainable business growth through continuous adaptation, flexible resource allocation, and rigorous testing and validation of ideas.',
     },
     {
-      title: 'Sed Posuere – Consectetur Est',
-      description: 'At lobortis morbi leo urna molestie at elementum eu facilisis. Sed odio morbi quis commodo odio aenean sed adipiscing.',
+      title: 'Atomic Habits',
+      description: 'An exploration of the transformative power of small changes, the book reveals how tiny adjustments in behaviour can lead to remarkable results. Including insights into the psychology of habits, practical techniques for habit formation. A must-read for anyone looking to transform their life and achieve extraordinary goals.',
     },
   ];
 
@@ -35,37 +36,30 @@ const BookNotes = () => {
     <section className="bg-[#141414] text-white min-h-screen">
       <MobileNavbar />
       <Navbar />
-      <div className="container mx-auto py-16">
+      <div className="container mx-auto py-16 px-4 md:px-0">
         <h1 className="text-5xl font-extrabold text-center mb-10">Book Notes</h1>
-        <div className="text-gray-600 dark:text-gray-400">
-          {/* Book Summaries Section */}
-          <section className="pb-5 pt-5 text-center flex flex-col md:flex-row items-center justify-center">
-            <div>
-              <p className="mb-4">
-                I enjoy reading and get through more books than I can count. Here&apos;s some of the notes I&apos;ve taken on the best books I&apos;ve read.
-              </p>
+        <p className="text-lg text-center mb-8">
+          I enjoy reading and love getting my hands on productivity and self-help books. Here&apos;s some of the notes I&apos;ve taken on the best books I&apos;ve read. Check my Medium Page for detail summaries on the books.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {books.map((book, index) => (
+            <div key={index} className="bg-gray-800 rounded-lg p-4 shadow-lg">
+              <img
+                style={{ width: '150px', height: '278px' }}
+                src={`/books/${index + 1}.jpg`}
+                alt={`Book ${index + 1}`}
+                className="object-contain mb-4 mx-auto"
+              />
+              {book.link ? (
+                <a href={book.link} target="_blank" rel="noopener noreferrer">
+                  <h3 className="text-xl font-semibold text-center mb-2 underline">{book.title}</h3>
+                </a>
+              ) : (
+                <h3 className="text-xl font-semibold text-center mb-2">{book.title}</h3>
+              )}
+              <p className="text-sm text-gray-400 text-center">{book.description}</p>
             </div>
-          </section>
-          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
-            {books.map((book, index) => (
-              <div key={index} className="flex flex-col md:flex-row items-center mb-4">
-                <img
-                  style={{ width: '150px', height: '278px' }}
-                  src={`/books/${index + 1}.jpg`}
-                  alt={`Book ${index + 1}`}
-                  className="object-contain mb-4 md:mb-0 md:mr-4 mr-2"
-                />
-                <div className="text-center md:text-left">
-                  <div>
-                    <h3 className="text-xl font-semibold">{book.title}</h3>
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-400">{book.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
       <Footer />
