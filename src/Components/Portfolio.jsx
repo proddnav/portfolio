@@ -41,6 +41,14 @@ const projects = [
     image: '/portfolio/marcopolo.png',
     link: 'https://docs.google.com/presentation/d/1_CPAXu2TO81Og2YWCQ1oYk_b1zjq6W3TJ6j9DNOgE8M/edit?usp=sharing',
     category: "product",
+  },
+  {
+    id: 6,
+    title: "Enhancing User Experience for Priceline Users",
+    detail: "Implemented user-centric strategies to enhance the overall experience for Priceline users, leading to increased engagement and satisfaction.",
+    image: '/portfolio/priceline.png',
+    link: 'https://docs.google.com/presentation/d/1waiP4iYgUaQuKWtKstfJhu5c2-LL2aVf_nQug41KSnQ/edit?usp=sharing',
+    category: "product",
   }
 ]
 
