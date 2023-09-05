@@ -51,7 +51,7 @@ const MobileNavbar = () => {
           
         </li>
         <li>
-        <Link href='/#skills' className="mr-5 hover:text-gray-300 hover:scale-110 text-center">Skils</Link>
+        <Link href='/#skills' className="mr-5 hover:text-gray-300 hover:scale-110 text-center">Skills</Link>
 
         </li>
         <li>

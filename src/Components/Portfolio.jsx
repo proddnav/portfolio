@@ -49,25 +49,51 @@ const projects = [
     image: '/portfolio/priceline.png',
     link: 'https://docs.google.com/presentation/d/1waiP4iYgUaQuKWtKstfJhu5c2-LL2aVf_nQug41KSnQ/edit?usp=sharing',
     category: "product",
-  }
+  },
+  {
+    id: 7,
+    title: "Visa Easy App",
+    detail: "Designed a flutter and dart application displaying visa requirements based on nationality and destination of travel",
+    link: 'https://drive.google.com/file/d/164ym4KOWYb7CKCu-ZPqN60Ae82lBObYX/view?usp=share_link',
+    image: '/portfolio/visaeasy.png',
+    category: "Mobile Applications",
+  },
+  {
+    id: 8,
+    title: "Cars24 Service App",
+    detail: "Designed a service request app for Cars24 where users can book for on-demand car service requests",
+    link: 'https://drive.google.com/file/d/1m0tuGkxNVOgrIv5g_H7zlbakaLFsNuPW/view?usp=sharing',
+    image: '/portfolio/cars24.png',
+    category: "Mobile Applications",
+  },
 ]
 
 const Portfolio = () => {
-  const [data, setData] = useState(projects)
+  const [data, setData] = useState(projects);
   const [button, setButton] = useState({
     wireframe: false,
     product: true,
-    newsletter: false
-  })
+    newsletter: false,
+    "Mobile Applications": false,
+  });
+
   const FilterData = (category) => {
-    const filter = projects.filter((item) => item.category == category)
-    setData(filter)
-    setButton({ wireframe: false, product: false, newsletter: false, [category]: true })
-  }
+    const filter = projects.filter((item) => item.category === category);
+    setData(filter);
+    setButton({
+      wireframe: false,
+      product: false,
+      newsletter: false,
+      "Mobile Applications": false,
+      [category]: true,
+    });
+  };
+
   useEffect(() => {
-    const filter = projects.filter((item) => item.category == "product")
-    setData(filter)
+    const filter = projects.filter((item) => item.category === "product");
+    setData(filter);
   }, []);
+
   return (
     <section id='portfolio' className="bg-[#141414]">
       <div className="container px-6 py-10 mx-auto">
@@ -80,16 +106,17 @@ const Portfolio = () => {
             <button onClick={() => { FilterData('wireframe') }} className={`px-4 py-2 text-sm border border-blue-400 font-medium text-white capitalize hover:bg-blue-600 ${button.wireframe && 'bg-blue-600'} md:py-2 rounded-md md:px-6`}>Wireframe</button>
             <button onClick={() => { FilterData('product') }} className={`px-4 md:py-2 text-sm border border-blue-400 font-medium text-white capitalize hover:bg-blue-600 ${button.product && 'bg-blue-600'} md:py-2 rounded-md md:px-6`}>Product Portfolio</button>
             <button onClick={() => { FilterData('newsletter') }} className={`px-4 py-2 text-sm border border-blue-400 font-medium text-white capitalize hover:bg-blue-600 ${button.newsletter && 'bg-blue-600'} md:py-2 rounded-md md:px-6`}>Newsletters</button>
+            <button onClick={() => { FilterData('Mobile Applications') }} className={`px-4 py-2 text-sm border border-blue-400 font-medium text-white capitalize hover:bg-blue-600 ${button['Mobile Applications'] && 'bg-blue-600'} md:py-2 rounded-md md:px-6`}>Mobile Applications</button>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 py-10 xl:grid-cols-3">
           {data.map((item) => (
             <div className=' ' key={item.id}>
-              <a href={item.link} target='_blank'>
-                <img className="object-fit object-center w-full h-64 lg:h-80 aspect-video" src={item.image} alt />
+              <a href={item.link} target='_blank' rel="noopener noreferrer">
+                <img className="object-fit object-center w-full h-64 lg:h-80 aspect-video" src={item.image} alt={item.title} />
               </a>
               <div className="p-2 rounded-b-md bg-gray-600">
-                <h1 className=" text-xl font-semibold text-white">
+                <h1 className="text-xl font-semibold text-white">
                   {item.title}
                 </h1>
                 <p className="mt-2 text-gray-400">
@@ -104,4 +131,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;
