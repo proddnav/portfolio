@@ -67,10 +67,10 @@ const projects = [
     category: "Mobile Applications",
   },
   {id: 9,
-    title: "Increasing Hotel Booking on Easemytrip",
+    title: "Increasing Hotel Bookings on Easemytrip",
     detail: "Explored and analysed different UI features, new category introductions to improve hotel bookings on Easemytrip platform",
     link: 'https://docs.google.com/presentation/d/1gWZ3zoBd9Kjxx8K_cZo5yOGMpiayQ48zJGpsb8bSfsM/edit?usp=sharing',
-    image: '/portfolio/easemyrtrip.png',
+    image: '/portfolio/emt.png',
     category: "product",
   }
 ]

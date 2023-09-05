@@ -5,6 +5,7 @@ import MobileNavbar from '@/Components/MobileNavbar';
 import Navbar from '@/Components/Navbar';
 import Portfolio from '@/Components/Portfolio';
 import Timeline from '@/Components/Timeline';
+import Certifications from '@/Components/Certifications';  // Import the Certifications component
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { useMediaQuery } from 'usehooks-ts';
@@ -61,6 +62,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Certifications />  {/* Include the Certifications component */}
       <Book />
       <Timeline />
       <Footer />
