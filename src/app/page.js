@@ -52,7 +52,7 @@ const Home = () => {
           </div>
           <div className="max-w-screen-xl mx-auto mt-20 ">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-7">
-              {['1', '2', '3', '4', '5', '6', '7'].map((icon, index) => (
+              {['1', '2', '3', '4', '5', '6', '7', '8'].map((icon, index) => (
                 <div key={index} className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
                   <img src={`/icons/${icon}.png`} alt={`Icon ${icon}`} className='aspect-[1/1] w-24' style={{ filter: 'brightness(200%) contrast(1000%) invert(100%)' }} />
                 </div>
