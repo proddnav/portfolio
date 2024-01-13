@@ -5,7 +5,8 @@ import MobileNavbar from '@/Components/MobileNavbar';
 import Navbar from '@/Components/Navbar';
 import Portfolio from '@/Components/Portfolio';
 import Timeline from '@/Components/Timeline';
-import Certifications from '@/Components/Certifications';  // Import the Certifications component
+import Certifications from '@/Components/Certifications';
+import Recommendation from '@/Components/Recommendation'; // Corrected import statement
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { useMediaQuery } from 'usehooks-ts';
@@ -34,7 +35,7 @@ const Home = () => {
                   }}
                 />
               </div>
-              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship. MBA candidate at Master&apos;s Union with proven success in scaling an F&amp;B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
+              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship with 4+ year work experience. MBA candidate at Master&apos;s Union with proven success in scaling an F&amp;B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
             </div>
             <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-2/5">
               <img className="w-full h-full lg:max-w-lg shadow-2xl shadow-[#4b39ef] rounded-full" src="/hero.png" alt="Hero" />
@@ -42,7 +43,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Recommendation Section */}
+      <Recommendation />
+
       <Portfolio />
+
       <section className="bg-[#141414]">
         <div className="container px-6 py-16 mx-auto text-center">
           <div className="max-w-xl mx-auto">
@@ -51,7 +57,7 @@ const Home = () => {
               Always Evolving, Forever Learning
             </p>
           </div>
-          <div className="max-w-screen-xl mx-auto mt-20 ">
+          <div className="max-w-screen-xl mx-auto mt-20">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-7">
               {['1', '2', '3', '4', '5', '6', '7', '8'].map((icon, index) => (
                 <div key={index} className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
@@ -62,7 +68,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Certifications />  {/* Include the Certifications component */}
+
+      <Certifications />
       <Book />
       <Timeline />
       <Footer />

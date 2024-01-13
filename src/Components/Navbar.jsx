@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="https://substack.com/@pranavchandra?utm_source=user-menu" target="_blank" rel="noopener noreferrer" className="mr-5 hover:text-gray-300 hover:scale-110">Substack</a>
         </nav>
         <div className='flex gap-5'>
-          <a href="https://drive.google.com/file/d/1Vm4cqlGwFar3a3I-RVQJwP85VY-8rPWu/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume</a>
+          <a href="https://drive.google.com/drive/folders/1cEZzIjPhmHXenrNomaqvtv3KFykf_IRo?usp=share_link" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-gray-800 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Resume</a>
           <a href="https://calendly.com/pranav-7ge/30min" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-blue-700 border-2 py-2 px-6 border-gray-600 focus:outline-none hover:bg-gray-200 rounded-xl text-base mt-4 md:mt-0">Book a Call</a>
         </div>
       </div>
