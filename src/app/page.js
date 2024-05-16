@@ -29,13 +29,13 @@ const Home = () => {
               <div className="text-white font-bold text-3xl mt-2">
                 <Typewriter
                   options={{
-                    strings: ['Ex-Lawyer', 'Entrepreneur', 'Product Enthusiast'],
+                    strings: ['Ex-Lawyer', 'Entrepreneur', 'Product Manager'],
                     autoStart: true,
                     loop: true,
                   }}
                 />
               </div>
-              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in law and entrepreneurship with 4+ year work experience. MBA candidate at Master&apos;s Union with proven success in scaling an F&amp;B venture. Committed to crafting exceptional products and setting new standards for user satisfaction. Continuous learner and lateral leader, eager to connect with like-minded professionals</p>
+              <p className="mt-3 lg:pr-10 text-gray-600 dark:text-gray-400">Passionate product enthusiast with a diverse background in business, law and entrepreneurship with over four years of work experience. Currently enhancing my expertise as a Product Management Intern at Leap, where I focus on analyzing user feedback to refine product features and collaborate on cross-functional teams to guide product development strategies.</p>
             </div>
             <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-2/5">
               <img className="w-full h-full lg:max-w-lg shadow-2xl shadow-[#4b39ef] rounded-full" src="/hero.png" alt="Hero" />
